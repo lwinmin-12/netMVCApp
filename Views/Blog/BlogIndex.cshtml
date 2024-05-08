@@ -1,0 +1,30 @@
+@model List<BlogModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<h1>San kyi tr pr </h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Blog Id</th>
+      <th scope="col">Blog Title</th>
+      <th scope="col">Blog Author</th>
+      <th scope="col">Blog Content</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    @foreach(BlogModel ea in Model) {
+<tr>
+      <th scope="row">@ea.Blog_Id</th>
+      <td>@ea.Blog_Title</td>
+      <td>@ea.Blog_Author</td>
+      <td>@ea.Blog_Content</td>
+    </tr>
+    }
+   
+  </tbody>
+</table>
