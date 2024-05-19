@@ -1,0 +1,31 @@
+@model BlogModel
+
+<form action="/Blog/Update/@Model.Blog_Id" method="post">
+ <div>
+      <label for="Blog_Id" class="form-label">Blog Id</label>
+    <input type="text"  class="form-control" id="Blog_Id" aria-describedby="basic-addon3 basic-addon4" value="@Model.Blog_Id">
+
+ </div>
+
+  <div>
+      <label for="Blog_Title" class="form-label">Blog Title</label>
+    <input type="text" name="Blog_Title" class="form-control" id="Blog_Title" aria-describedby="basic-addon3 basic-addon4" value="@Model.Blog_Title">
+
+ </div>
+
+  <div>
+      <label for="Blog_Author" class="form-label">Blog Author</label>
+    <input type="text" name="Blog_Author" class="form-control" id="Blog_Author" aria-describedby="basic-addon3 basic-addon4" value="@Model.Blog_Author">
+
+ </div>
+
+  <div>
+      <label for="Blog_Content" class="form-label">Blog Content</label>
+    <input type="text" name="Blog_Content" class="form-control" id="Blog_Content" aria-describedby="basic-addon3 basic-addon4" value="@Model.Blog_Content">
+
+ </div>
+
+ <a href="/Blog" class="btn btn-primary">Back</a>
+  <button class="btn btn-success" type="submit">Save</button>   
+
+</form>

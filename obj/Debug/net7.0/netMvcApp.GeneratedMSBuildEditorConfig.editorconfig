@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mac/Desktop/netMvcApp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mac/Desktop/netMvcApp/Views/Blog/BlogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/Desktop/netMvcApp/Views/Blog/BlogEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mac/Desktop/netMvcApp/Views/Blog/BlogIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
